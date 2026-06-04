@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --brand: #f97316;
+  --brand-dark: #d65a10;
+  --surface: #ffffff;
+  --surface-soft: #fff7ef;
+  --text: #1f2937;
+  --muted: #4b5563;
+  --border: rgba(249, 115, 22, 0.22);
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+}
+
+body, #root {
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 70px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(249, 115, 22, 0.12);
+  border: 1px solid rgba(249, 115, 22, 0.12);
+  background: var(--surface);
+}
+
+.card.shadow-sm {
+  background: var(--surface);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+}
+
+.sticky-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background: var(--surface);
+  color: var(--text);
+  z-index: 1000;
+  text-align: center;
+  padding: 0.9rem 0;
+  border-top: 4px solid var(--brand);
+  box-shadow: 0 -4px 16px rgba(249, 115, 22, 0.12);
+}
+
+.app-main-content {
+  margin-bottom: 70px;
+}
+
+.product-detail-fit {
+  min-height: calc(100vh - 120px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.card-img-top.p-4 {
+  height: 180px !important;
+  object-fit: contain;
+  padding: 1.5rem !important;
+}
+
+.btn-primary {
+  background-color: var(--brand) !important;
+  border-color: var(--brand) !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover,
+.btn-outline-danger:hover {
+  background-color: var(--brand-dark) !important;
+  border-color: var(--brand-dark) !important;
+  color: #fff !important;
+}
+
+.btn-outline-primary {
+  border-color: var(--brand) !important;
+  color: var(--brand) !important;
+  font-weight: 600;
+}
+
+.btn-outline-danger {
+  border-color: var(--brand) !important;
+  color: var(--brand) !important;
+  font-weight: 600;
+}
+
+input, .form-control {
+  border-radius: 8px !important;
+  border: 1px solid rgba(249, 115, 22, 0.25) !important;
+}
+
+input:focus, .form-control:focus {
+  box-shadow: 0 0 0 0.15rem rgba(249, 115, 22, 0.15) !important;
+  border-color: var(--brand) !important;
+}
+
+.alert-danger {
+  background: #fff1f0;
+  color: #c62828;
+  border: 1px solid #ffc9c4;
+}
+
+marquee h1 {
+  display: inline-block;
+  color: #000;
+}

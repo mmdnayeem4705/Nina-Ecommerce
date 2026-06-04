@@ -1,0 +1,41 @@
+.cart-item {
+  border-bottom: 1px solid #eee;
+  padding: 16px 0;
+}
+
+.cart-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.cart-price {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.cart-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e64a19;
+  margin-top: 20px;
+}
+
+.coupon-chip {
+  border: 1px solid rgba(249, 115, 22, 0.25);
+  background: #fff7ed;
+  border-radius: 12px;
+  padding: 10px 14px;
+  min-width: 160px;
+  box-shadow: 0 6px 16px rgba(249, 115, 22, 0.08);
+}
+
+.coupon-chip strong {
+  display: block;
+  color: #dd6b20;
+  margin-bottom: 4px;
+}
+
+.coupon-chip-desc {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
