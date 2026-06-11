@@ -46,25 +46,13 @@ Nina Store is a modern e-commerce web application built with ReactJS and Firebas
    - Create Firestore database
    - Copy your Firebase config to `src/firebase.js`
 
-4. Set Firestore Rules (for development):
-   ```
-   service cloud.firestore {
-     match /databases/{database}/documents {
-       match /users/{userId} {
-         allow read, write: if request.auth != null && request.auth.uid == userId;
-       }
-       match /orders/{orderId} {
-         allow read, write: if request.auth != null && request.auth.uid == resource.data.userId;
-       }
-     }
-   }
-   ```
 
-.....
-Demo work
+   ```
+   Demo work
 https://ecommerce-website-using-react-js-q972-i8ys3zseh.vercel.app/
 login with this credentials 
 email = king@gmail.com
 password = king123
+   ```
 
->>>>>>> 5c6b304 (last update)
+
